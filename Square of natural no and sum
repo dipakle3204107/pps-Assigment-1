@@ -1,0 +1,15 @@
+#include<stdio.h>
+int main()
+{ int terms,sum=0;
+printf ("Enter the Number of terms");
+scanf("%d",&terms);
+printf ("Square Natural Number up %d terms");
+for(int i=1;i<=terms;i++)
+{
+int square=i*i;
+printf ("%d", square);
+sum+=square;
+}
+printf ("\n The sum of square natural number up to %d terms =%d\n",sum);
+return 0;
+}
