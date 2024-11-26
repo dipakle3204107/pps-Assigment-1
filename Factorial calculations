@@ -7,7 +7,7 @@ printf ("Enter a Number");
 scanf("%d",&n);
 for(int i=1;i<=n;i++)
 {
-factorial*=1;
+factorial*=i;
 }
 printf ("The Factorial of %d is %llub",n,factorial);
 return 0;
