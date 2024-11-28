@@ -1,0 +1,15 @@
+#include<stdio.h>
+int main()
+{
+ int n, reverse=0,reminder;
+  printf("Input a Number ");
+  scanf("%d",&num);
+  while (num!=0)
+    {
+    reminder=num/10;
+    Reversed=reversed*10+reminder;
+    num/=10;
+    }
+  printf ("The Number in Reverse order is %d\n",reversed);
+  return 0;
+}
